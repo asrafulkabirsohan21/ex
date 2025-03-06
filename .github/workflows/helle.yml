@@ -1,0 +1,13 @@
+name: hello
+
+on: push
+
+jobs:
+  first_job:
+    runs-on:  ubuntu-latest
+
+    steps:
+      - name: print a message
+        run: echo "hello github action"
+        
+  
