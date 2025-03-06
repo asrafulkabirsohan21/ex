@@ -13,6 +13,4 @@ jobs:
       - name: welcome massage
         run: echo "welcome massge"
 
-      - name: read file
-        run: cat README.md
-  
+      
